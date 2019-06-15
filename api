@@ -1,0 +1,14 @@
+public class url_shrotener{
+	
+	<!-- converting for shortr form -->
+	String	url_search(String $URL){
+		 $short_url[]=encrypt(String $URL);
+		return 'www.'.$short_url[0]['sh_url'];
+                                 }
+       <!--  converting for shorter to orginal form -->            
+       String org_url_search(String $URL)
+       {
+       	$org_link[0]=decrypt(String $URL);
+       	return 'www.'.$org_link[0];
+       }             
+}
