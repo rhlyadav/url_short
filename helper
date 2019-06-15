@@ -1,0 +1,15 @@
+function encrypt(String URL){
+	$str_shorturl[]=explode("www.",URL);
+	String sh_url=$str_shorturl[1];
+	$GLOBALS['sh_url']='cyb'.rand(121,98999).'.in';<!--$GLOBALS  is global array in php-->
+	return $GLOBALS;
+}
+
+function decrypt(String URL){
+	$a=explode("www.",$URL);
+	foreach($GLOBALS as $key)
+	{
+		if($key['sh_url']==$a[1])
+		return key[$GLOBALS];  <!-- returning key value -->
+	}
+}
